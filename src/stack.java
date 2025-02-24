@@ -1,16 +1,4 @@
-// exception for full stack
-class stackfullexception extends Exception {
-    public stackfullexception(String message) {
-        super(message);
-    }
-}
 
-// exception for empty stack
-class stackemptyexception extends Exception {
-    public stackemptyexception(String message) {
-        super(message);
-    }
-}
 
 // generic stack class
 public class stack<T> {
@@ -70,5 +58,19 @@ public class stack<T> {
             }
         }
         return result;
+    }
+
+}
+// exception for full stack
+class stackfullexception extends Exception {
+    public stackfullexception(String message) {
+        super(message);
+    }
+}
+
+// exception for empty stack
+class stackemptyexception extends Exception {
+    public stackemptyexception(String message) {
+        super(message);
     }
 }
